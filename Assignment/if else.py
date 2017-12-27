@@ -3,7 +3,7 @@ basic_salary=int(input("enter the basic salary"))
 allowance=int(input("enter the allowances"))
 monthly_gross_salary=basic_salary+allowance
 if(monthly_gross_salary>10000):
-	income_tax=20/100*monthly_gross_salary
+	income_tax=(20.0/100.0)*monthly_gross_salary
 	net_salary=monthly_gross_salary-income_tax
 	print("Net salary:%d"%income_tax)
 else:
